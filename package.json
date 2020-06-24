@@ -1,0 +1,35 @@
+{
+  "name": "@jambasi/test-package",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "styleguidist server"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-styleguidist": "^11.0.8",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "css-loader": "^3.6.0",
+    "snapguidist": "^4.0.0",
+    "style-loader": "^1.2.1",
+    "styled-components": "^5.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jambasi/test-package",
+    "repository": "git://github.com/jambasi/test-package.git"
+  }
+}
