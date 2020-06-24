@@ -18,12 +18,24 @@ module.exports = {
       filename: '[name].css',
     }),
   ],
+
   module: {
     rules: [
       // JSX
       {
+        test: /\.js?$/,
+        exclude: /(node_modules|bower_components)/,
+        include: [path.resolve(__dirname, 'client')], 
+        loader: 'babel-loader',
+        query: {
+            presets: ['react', 'es2015', 'stage-3'],
+            plugins: ['transform-react-jsx']
+        }
+    },
+      {
         test: /\.jsx?$/,
         exclude: /(node_modules)/,
+        include: path.resolve(__dirname, 'src'),
         use: {
           loader: 'babel-loader',
           options: {

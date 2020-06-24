@@ -1,4 +1,4 @@
-import Button from "./components/button/Button.jsx"
+import Button from "./components/button/Button"
 
 export default {
     Button
