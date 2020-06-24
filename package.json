@@ -1,6 +1,6 @@
 {
   "name": "@jambasi/test-package",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/@jambasi/test-package/index.js",
   "scripts": {
     "start": "styleguidist server",
