@@ -1,7 +1,7 @@
 {
   "name": "@jambasi/test-package",
   "version": "1.0.3",
-  "main": "index.js",
+  "main": "lib/@jambasi/test-package/index.js",
   "scripts": {
     "start": "styleguidist server",
     "dev": "webpack --mode development --env.dist=false",
