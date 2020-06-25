@@ -38,10 +38,5 @@
     "snapguidist": "^4.0.0",
     "style-loader": "^1.2.1",
     "styled-components": "^5.1.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Jambasi/test-package",
-    "repository": "git://github.com/jambasi/test-package.git"
   }
 }

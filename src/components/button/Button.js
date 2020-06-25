@@ -13,10 +13,10 @@ class Button extends Component {
   render() {
   
     return (
-      <button
+      <button onclick="window.open('https://localhost:6060)"
        
       >
-        {"TEST"}
+        {"Documentation"}
       </button>
     );
   }
