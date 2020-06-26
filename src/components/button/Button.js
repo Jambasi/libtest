@@ -9,11 +9,14 @@ import React, { Component } from 'react';
 
 class Button extends Component {
 
+  handleClick() {
+    window.open('http://localhost:6060')
+  }
 
   render() {
   
     return (
-      <button onclick="window.open('https://localhost:6060)"
+      <button onClick={this.handleClick}
        
       >
         {"Documentation"}
