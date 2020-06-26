@@ -6,7 +6,7 @@
     "start": "styleguidist server",
     "dev": "webpack --mode development --env.dist=false",
     "dev:dist": "webpack --mode development",
-    "build": "npx styleguidist build && webpack --mode production --release && git add . && git commit -m \"automatic commit\" && git push",
+    "build": "npx styleguidist build && webpack --mode production --release && git add . && git commit -m \"automatic commit\" && git push && npm version patch && npm publish",
     "lint-js": "eslint src/**/*.js",
     "lint-css": "stylelint \"src/**/*.{css,less,styl,scss,sass,sss}\"",
     "lint": "npm run lint-js && npm run lint-css"
