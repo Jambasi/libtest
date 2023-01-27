@@ -34,7 +34,7 @@
     "concurrently": "^5.2.0",
     "css-loader": "^3.6.0",
     "eslint": "^7.3.1",
-    "lint": "^0.7.0",
+    "lint": "^0.8.19",
     "mini-css-extract-plugin": "^0.9.0",
     "snapguidist": "^4.0.0",
     "style-loader": "^1.2.1",
